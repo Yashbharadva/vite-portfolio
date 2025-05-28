@@ -12,7 +12,7 @@ const About = () => {
       </div>
       <div className="about-sections">
         <div className="about-left">
-          {/* <img src={profile_img} alt="" /> */}
+          <img src={profile_img} alt="" />
         </div>
         <div className="about-right">
           <div className="about-para">
@@ -26,9 +26,9 @@ const About = () => {
             </p>
           </div>
           <div className="about-skills">
-            <div className="about-skill"><p>HTML & CSS<hr style={{ width: "50%" }} /></p></div>
-            <div className="about-skill"><p>HTML & CSS<hr style={{ width: "70%" }} /></p></div>
-            <div className="about-skill"><p>HTML & CSS<hr style={{ width: "50%" }} /></p></div>
+            <div className="about-skill"><p>HTML & CSS<hr style={{ width: "50%" }}/></p></div>
+            <div className="about-skill"><p>React JS<hr style={{ width: "70%" }}/></p></div>
+            <div className="about-skill"><p>Javascript<hr style={{ width: "60%" }}/></p></div>
           </div>
         </div>
       </div>
